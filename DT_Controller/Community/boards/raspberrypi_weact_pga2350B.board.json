@@ -13,19 +13,18 @@
     "ForceResetOnFirmwareUpdate": true,
     "MessageSize": 96
   },
-  "HardwareIds": ["^VID_2E8A&PID_000A","^VID_2E8A&PID_F00A","^VID_2E8A&PID_F00F"],
+  "HardwareIds": ["^VID_2E8A&PID_000A","^VID_2E8A&PID_F00A","^VID_2E8A&PID_F00F","^VID_2E8A&PID_000F","^VID_2E8A&PID_AA02"],
   "Info": {
     "CanInstallFirmware": true,
     "CanResetBoard": true,
-    "FirmwareBaseName": "mobiflight_template_raspberrypico2_generic",
+    "FirmwareBaseName": "saves_dt_controller_weact_pga2350B",
     "FirmwareExtension": "uf2",
-    "FriendlyName": "Mobiflight RaspiPico2 generic",
-    "LatestFirmwareVersion": "2.5.1",
-    "MobiFlightType": "Mobiflight RaspiPico2 generic",
+    "FriendlyName": "SaveS DT_Controller WeAct PGA2350B",
+    "LatestFirmwareVersion": "0.0.1",
+    "MobiFlightType": "SaveS DT_Controller WeAct PGA2350B",
     "ResetFirmwareFile": "reset.raspberry_pico1-2_flash_nuke.uf2",
     "CustomDeviceTypes": [
-        "MOBIFLIGHT_TEMPLATE",
-        "MOBIFLIGHT_TEMPLATE2"
+        "DT_Controller"
       ],
       "Community": {
         "Project": "Your Project",
@@ -35,7 +34,7 @@
       }
   },
   "ModuleLimits": {
-    "MaxAnalogInputs": 7,
+    "MaxAnalogInputs": 8,
     "MaxInputShifters": 6,
     "MaxButtons": 47,
     "MaxEncoders": 13,
@@ -46,7 +45,7 @@
     "MaxShifters": 6,
     "MaxSteppers": 6,
     "MaxInputMultiplexer": 6,
-    "MaxCustomDevices": 0
+    "MaxCustomDevices": 1
   },
   "Pins": [
     {

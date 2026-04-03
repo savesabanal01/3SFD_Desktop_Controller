@@ -1,0 +1,31 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+      "Label": "SaveS's DT_Controller",
+      "Type": "DT_Controller",
+      "Author": "SaveS",
+      "URL": "https://github.com",
+      "Version" : "1.0.0"
+    },
+    "Config": {
+      "Pins": [
+        "Pin 1",
+        "Pin 2",
+        "Pin 3"
+      ],
+      "isI2C": false
+    },
+    "MessageTypes": [
+      {
+        "id": 0,
+        "label": "Elevator Trim Value",
+        "description": "$ will be displayed as Elevator Trim value"
+      },
+      {
+        "id": 1,
+        "label": "Flap Ratio",
+        "description": "$ will be displayed as Flap Ratio value"
+      }
+    ]
+  }
+  
